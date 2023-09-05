@@ -10,13 +10,13 @@ from pyrogram.types import Message
 
 user = Client(
     "userbot",
-    api_id=int(API_ID),
+    api_id=API_ID,
     api_hash=API_HASH,
     session_string=STRING_SESSION,
 )
 bot = Client(
     "techzindexbot",
-    api_id=int(API_ID),
+    api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
 )
